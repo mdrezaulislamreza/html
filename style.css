@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    background-color: lightgreen;
+    float: left;
+    height: 50px;
+    width: 20%;
+    line-height: 50px;
+    text-align: center;
+}
+.menu ul li:hover{
+    color: #fff;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul  ul li{
+    width: 100%;
+}
+
+.menu ul ul ul{
+    margin-right: 200px;
+    width: 100%;
+}
